@@ -1,0 +1,13 @@
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\bin\Debug\netstandard2.0\ChaseAPIExample.deps.json
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\bin\Debug\netstandard2.0\ChaseAPIExample.dll
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\ChaseAPIExample.csprojAssemblyReference.cache
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\ChaseAPIExample.AssemblyInfoInputs.cache
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\ChaseAPIExample.AssemblyInfo.cs
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\bin\Debug\netstandard2.0\ref\ChaseAPIExample.dll
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\bin\Debug\netstandard2.0\ChaseAPIExample.pdb
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\ChaseAPIExample.dll
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\ref\ChaseAPIExample.dll
+C:\Dev\ChaseAPIExample\ChaseAPIExample\ChaseAPIExample\obj\Debug\netstandard2.0\ChaseAPIExample.pdb

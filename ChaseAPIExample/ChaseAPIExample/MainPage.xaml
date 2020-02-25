@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChaseAPIExample.MainPage" BackgroundColor="#24292e">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="DataLabelFrame" TargetType="Frame">
+                <Setter Property="Grid.Column" Value="0"/>
+            </Style>
+            <Style x:Key="DataRawFrame" TargetType="Frame">
+                <Setter Property="Grid.Column" Value="1"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Stock Info" HorizontalOptions="Center" FontSize="Large" VerticalOptions="Center" TextColor="White"/>
+
+        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="1">
+            <Label Text="Lowest Price:"/>
+        </Frame>
+        <Frame Style="{StaticResource DataRawFrame}" Grid.Row="1">
+            <Label Text="{Binding LowestPrice}"/>
+        </Frame>
+
+        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="2">
+            <Label Text="Highest Price:"/>
+        </Frame>
+        <Frame Style="{StaticResource DataRawFrame}" Grid.Row="2">
+            <Label Text="{Binding HighestPrice}"/>
+        </Frame>
+
+        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="3">
+            <Label Text="Volume:"/>
+        </Frame>
+        <Frame Style="{StaticResource DataRawFrame}" Grid.Row="3">
+            <Label Text="{Binding Volume}"/>
+        </Frame>
+
+        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="4">
+            <Label Text="Time:"/>
+        </Frame>
+        <Frame Style="{StaticResource DataRawFrame}" Grid.Row="4">
+            <Label Text="{Binding Time}"/>
+        </Frame>
+        
+        <Button Text="Previous" Command="{Binding PreviousCMD}" Grid.Column="0" Grid.Row="5"/>
+        <Button Text="Next" Command="{Binding NextCMD}" Grid.Column="1" Grid.Row="5"/>
+    </Grid>
+
+</ContentPage>
