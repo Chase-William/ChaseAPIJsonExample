@@ -27,42 +27,48 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.5*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
         <Label Text="Stock Info" HorizontalOptions="Center" FontSize="Large" VerticalOptions="Center" TextColor="White"/>
 
-        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="1">
-            <Label Text="Lowest Price:"/>
-        </Frame>
-        <Frame Style="{StaticResource DataRawFrame}" Grid.Row="1">
-            <Label Text="{Binding LowestPrice}"/>
+        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="1" Grid.ColumnSpan="2">
+            <StackLayout Orientation="Horizontal">
+                <Entry Placeholder="x Coord" Text="{Binding XCoord}"/>
+                <Entry Placeholder="y Coord" Text="{Binding YCoord}"/>
+            </StackLayout>
         </Frame>
 
-        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="2">
-            <Label Text="Highest Price:"/>
-        </Frame>
-        <Frame Style="{StaticResource DataRawFrame}" Grid.Row="2">
-            <Label Text="{Binding HighestPrice}"/>
-        </Frame>
+        <Button Text="Get Weather Info" Command="{Binding GetDataForCoordsCMD}" Grid.Row="2"/>
 
         <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="3">
-            <Label Text="Volume:"/>
+            <Label Text="Temperature:"/>
         </Frame>
         <Frame Style="{StaticResource DataRawFrame}" Grid.Row="3">
-            <Label Text="{Binding Volume}"/>
+            <Label Text="{Binding Temp}"/>
         </Frame>
 
         <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="4">
-            <Label Text="Time:"/>
+            <Label Text="Snow Level:"/>
         </Frame>
         <Frame Style="{StaticResource DataRawFrame}" Grid.Row="4">
-            <Label Text="{Binding Time}"/>
+            <Label Text="{Binding SnowLevel}"/>
         </Frame>
         
-        <Button Text="Previous" Command="{Binding PreviousCMD}" Grid.Column="0" Grid.Row="5"/>
-        <Button Text="Next" Command="{Binding NextCMD}" Grid.Column="1" Grid.Row="5"/>
+        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="5">
+            <Label Text="Weather Time:"/>
+        </Frame>
+        <Frame Style="{StaticResource DataRawFrame}" Grid.Row="5">
+            <Label Text="{Binding WeatherTime}"/>
+        </Frame>
+
+        <Frame Style="{StaticResource DataLabelFrame}" Grid.Row="6">
+            <Label Text="Elevation:"/>
+        </Frame>
+        <Frame Style="{StaticResource DataRawFrame}" Grid.Row="6">
+            <Label Text="{Binding ElevationAndUnitCode}"/>
+        </Frame>
     </Grid>
 
 </ContentPage>

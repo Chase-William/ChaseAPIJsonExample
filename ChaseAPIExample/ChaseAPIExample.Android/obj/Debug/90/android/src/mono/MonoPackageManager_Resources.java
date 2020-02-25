@@ -3,16 +3,9 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "ChaseAPIExample.Android.dll" comes first in this list. */
 		"ChaseAPIExample.Android.dll",
-		"AlphaVantage.Net.Core.dll",
-		"AlphaVantage.Net.Stocks.dll",
 		"ChaseAPIExample.dll",
 		"FormsViewGroup.dll",
-		"JetBrains.Annotations.dll",
-		"Microsoft.AspNetCore.WebUtilities.dll",
-		"Microsoft.Extensions.Primitives.dll",
-		"Microsoft.Net.Http.Headers.dll",
 		"Newtonsoft.Json.dll",
-		"System.Text.Encodings.Web.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

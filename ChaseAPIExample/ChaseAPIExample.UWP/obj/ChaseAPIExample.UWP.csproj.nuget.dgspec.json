@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\ChaseAPIExample.UWP.csproj": {}
+    "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\ChaseAPIExample.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\ChaseAPIExample.UWP.csproj": {
+    "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\ChaseAPIExample.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\ChaseAPIExample.UWP.csproj",
+        "projectUniqueName": "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\ChaseAPIExample.UWP.csproj",
         "projectName": "ChaseAPIExample.UWP",
-        "projectPath": "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\ChaseAPIExample.UWP.csproj",
-        "packagesPath": "C:\\Users\\cxr69\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\obj\\",
+        "projectPath": "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\ChaseAPIExample.UWP.csproj",
+        "packagesPath": "C:\\Users\\Chase Roth\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\cxr69\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Chase Roth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj": {
-                "projectPath": "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj"
+              "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj": {
+                "projectPath": "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj"
               }
             }
           }
@@ -87,21 +87,21 @@
         }
       }
     },
-    "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj": {
+    "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj",
+        "projectUniqueName": "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj",
         "projectName": "ChaseAPIExample",
-        "projectPath": "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj",
-        "packagesPath": "C:\\Users\\cxr69\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample\\obj\\",
+        "projectPath": "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample\\ChaseAPIExample.csproj",
+        "packagesPath": "C:\\Users\\Chase Roth\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\ChaseAPIJsonExample\\ChaseAPIExample\\ChaseAPIExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cxr69\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Chase Roth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -126,15 +126,15 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "AlphaVantage.Net.Stocks": {
-              "target": "Package",
-              "version": "[1.0.3, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -155,7 +155,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
